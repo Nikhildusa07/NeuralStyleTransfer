@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Neural Style Transfer</title>
+
+    <!-- Link to the CSS file stored in the static folder -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <!-- Main container for the page content -->
+    <div class="container">
+        <h1>🎨 Neural Style Transfer</h1>
+
+        <!-- Form to upload content and style images -->
+        <form method="post" enctype="multipart/form-data">
+            <label>Upload Content Image</label>
+            <input type="file" name="content_image" required>
+
+            <label>Upload Style Image</label>
+            <input type="file" name="style_image" required>
+
+            <!-- Submit button to start style transfer -->
+            <button type="submit">Stylize!</button>
+        </form>
+
+        <!-- Show this section only if the output image is available -->
+        {% if output_image %}
+        <div class="result">
+            <h2>Output Image:</h2>
+
+            <!-- Display the final stylized image -->
+            <img src="{{ url_for('static', filename='stylized_output.jpg') }}" alt="Output Image">
+        </div>
+        {% endif %}
+    </div>
+
+</body>
+</html>
