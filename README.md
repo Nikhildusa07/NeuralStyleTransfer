@@ -42,5 +42,6 @@ The model minimizes the content loss and style loss by optimizing the generated 
 
 Before running the project, install dependencies:
 
-```bash
-pip install -r requirements.txt
+-->pip install -r requirements.txt
+
+# Output
