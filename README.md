@@ -45,3 +45,5 @@ Before running the project, install dependencies:
 -->pip install -r requirements.txt
 
 # Output
+
+![Image](https://github.com/user-attachments/assets/74109470-6dc5-474d-8ee8-a6eef0098735)
