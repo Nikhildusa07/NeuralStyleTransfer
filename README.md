@@ -1,3 +1,18 @@
+# NEURAL STYLE TRANSFER
+*COMPANY*: CODTECH IT SOLUTIONS
+
+*NAME*: DUSANIKHIL
+
+*INTERN ID*: C0DF113
+
+*DOMAIN*: COMPUTER VISION / DEEP LEARNING
+
+*DURATION*: 4 WEEKS
+
+*MENTOR*: NEELA SANTOSH
+
+
+
 #  Neural Style Transfer
 
 Neural Style Transfer is a deep learning-based project that blends the *content* of one image with the *style* of another to generate a visually appealing, artistic output. This implementation allows users to upload two images — a content image and a style image — and generate a stylized version of the content image using deep convolutional neural networks.
