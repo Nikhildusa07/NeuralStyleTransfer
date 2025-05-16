@@ -47,3 +47,5 @@ Before running the project, install dependencies:
 # Output
 
 ![Image](https://github.com/user-attachments/assets/74109470-6dc5-474d-8ee8-a6eef0098735)
+
+![Image](https://github.com/user-attachments/assets/d975fd7b-1ada-4f2d-9ac7-db0371aaf1ea)
