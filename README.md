@@ -5,7 +5,7 @@
 
 *INTERN ID*: C0DF113
 
-*DOMAIN*: COMPUTER VISION / DEEP LEARNING
+*DOMAIN*: Artificial Intelligence Markup Language
 
 *DURATION*: 4 WEEKS
 
@@ -13,13 +13,13 @@
 
 
 
-#  NEURAL STYLE TRANSFER
+#  DESCRIPTION
 
 Neural Style Transfer is a deep learning-based project that blends the *content* of one image with the *style* of another to generate a visually appealing, artistic output. This implementation allows users to upload two images — a content image and a style image — and generate a stylized version of the content image using deep convolutional neural networks.
 
 ---
 
-##  Features
+##  FEATURES
 
 - Upload any content and style image
 - Generate high-quality stylized output
@@ -29,7 +29,7 @@ Neural Style Transfer is a deep learning-based project that blends the *content*
 
 ---
 
-##  How It Works
+##  HOW IT WORKS
 
 The model minimizes the content loss and style loss by optimizing the generated image iteratively using VGG19 (a pre-trained convolutional network).
 
@@ -38,7 +38,7 @@ The model minimizes the content loss and style loss by optimizing the generated 
 
 ---
 
-##  Requirements
+##  REQUIREMENTS
 
 Before running the project, install dependencies:
 
